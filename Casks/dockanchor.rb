@@ -7,7 +7,13 @@ cask "dockanchor" do
   desc "Control and anchor the macOS Dock programmatically"
   homepage "https://github.com/bwya77/DockAnchor"
 
+  depends_on macos: ">= :sequoia"
+
   auto_updates true
 
   app "DockAnchor.app"
+
+  zap trash: [
+    "~/Library/Preferences/bwyatt.DockAnchor.plist"
+  ]
 end
