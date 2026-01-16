@@ -1,6 +1,6 @@
 cask "dockanchor" do
-  version "2.0.0"
-  sha256 "c308820149d1bf4021010378482def85095e64c2824c3990112f4b9f2520578f"
+  version "2.0.1"
+  sha256 "81548d944b8440949ff60e611e4c4120efdc8a527a72492a772b36d686ae3ff4"
 
   url "https://github.com/bwya77/DockAnchor/releases/download/v#{version}/DockAnchor.zip"
   name "DockAnchor"
