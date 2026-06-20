@@ -7,7 +7,7 @@ cask "dockanchor" do
   desc "Control and anchor the macOS Dock programmatically"
   homepage "https://github.com/bwya77/DockAnchor"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   auto_updates true
 
